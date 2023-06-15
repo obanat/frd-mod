@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ $ACTION=ifupdate -a -z "$IFUPDATE_ADDRESSES" -a -z "$IFUPDATE_DATA" -a $INTERFACE=wwan0 ]; then
+	/etc/wificar-new.sh
+fi
