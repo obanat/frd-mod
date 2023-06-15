@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_about" android:id="@+id/about" android:title="@string/about_label"/>
+    <item android:icon="@drawable/menu_help" android:id="@+id/help" android:title="@string/help_label"/>
+    <item android:icon="@drawable/menu_sethome" android:id="@+id/sethome" android:title="@string/sethome_label"/>
+    <item android:icon="@drawable/menu_settings" android:id="@+id/settings" android:title="@string/settings_label"/>
+</menu>

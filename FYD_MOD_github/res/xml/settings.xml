@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/preference_brightnessboost_title" android:key="brightnessboost" android:summary="@string/preference_brightnessboost_summary" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/preference_snapshotboost_title" android:key="snapshotboost" android:summary="@string/preference_snapshotboost_summary" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/preference_snapshottomedia_title" android:key="snapshottomedia" android:summary="@string/preference_snapshottomedia_summary" android:defaultValue="false"/>
+       <CheckBoxPreference android:title="@string/preference_keepscreenon_title" android:key="keepscreenon" android:summary="@string/preference_keepscreenon_summary" android:defaultValue="true"/>
+    <ListPreference android:entries="@array/landscapevideozoom_array" android:title="@string/preference_landscapevideozoom_title" android:key="landscapevideozoom" android:summary="@string/preference_landscapevideozoom_summary" android:defaultValue="2" android:dialogTitle="@string/preference_landscapevideozoom_dialogtitle" android:entryValues="@array/landscapevideozoomvals_array"/>
+    <PreferenceCategory android:title="@string/preference_sectionheader_roviosettings">
+        <PreferenceScreen android:title="@string/preference_pagelink_network_title" android:key="networkSettings" android:summary="@string/preference_pagelink_network_summary">
+            <EditTextPreference android:title="MAC地址" android:key="mac" android:summary="远控必须设置小车的MAC" android:defaultValue="" android:inputType="textNoSuggestions"/>
+            <EditTextPreference android:title="服务器IP" android:key="redisIp" android:summary="服务器的IP或者域名，非必须填写" android:defaultValue="" android:inputType="textNoSuggestions"/>
+            <EditTextPreference android:title="服务器端口" android:key="redisPort" android:summary="服务器的端口号 10000-40000，非必须填写" android:defaultValue="0" android:inputType="number"/>
+            <EditTextPreference android:title="转发端口" android:key="relayPort" android:summary="转发端口号 10000-40000，非必须填写" android:defaultValue="0" android:inputType="number"/> 
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/preference_pagelink_camera_title" android:key="cameraSettings" android:summary="@string/preference_pagelink_camera_summary">
+            <ListPreference android:entries="@array/cameraresolution_array" android:title="@string/preference_cameraresolution_title" android:key="cameraresolution" android:summary="@string/preference_cameraresolution_summary" android:defaultValue="2" android:dialogTitle="@string/preference_cameraresolution_dialogtitle" android:entryValues="@array/cameraresolutionvals_array"/>
+            <ListPreference android:entries="@array/cameraquality_array" android:title="@string/preference_cameraquality_title" android:key="cameraquality" android:summary="@string/preference_cameraquality_summary" android:defaultValue="1" android:dialogTitle="@string/preference_cameraquality_dialogtitle" android:entryValues="@array/cameraqualityvals_array"/>
+            <ListPreference android:entries="@array/camerabrightness_array" android:title="@string/preference_camerabrightness_title" android:key="camerabrightness" android:summary="@string/preference_camerabrightness_summary" android:defaultValue="6" android:dialogTitle="@string/preference_camerabrightness_dialogtitle" android:entryValues="@array/camerabrightnessvals_array"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

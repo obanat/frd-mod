@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_dialog_alert"/>
+            <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/screentext_dialog" android:layout_gravity="center_vertical" android:id="@+id/TextView_Dialog_Alert_Header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+    <ScrollView android:paddingTop="7dp" android:paddingBottom="11dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1" android:layout_below="@+id/alert_icon" android:layout_alignParentLeft="true">
+        <TextView android:textSize="16dp" android:textColor="@color/screentext_dialog" android:id="@+id/TextView_Dialog_Alert_Body" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/dialog_buttonbackground" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/Button_Dialog_Alert_1" android:layout_width="145dp" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/Button_Dialog_Alert_2" android:layout_width="145dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

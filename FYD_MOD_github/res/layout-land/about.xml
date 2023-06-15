@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:src="@drawable/icon"/>
+        <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/appname" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/app_name" android:layout_toRightOf="@+id/icon"/>
+        <TextView android:textColor="#ffffffff" android:id="@+id/about_version" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/icon" android:layout_below="@+id/appname"/>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/about_content1" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/dialog_about_content1"/>
+            <TextView android:id="@+id/about_content2" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/dialog_about_content2"/>
+            <TextView android:id="@+id/about_content3" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/dialog_about_content3"/>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/logo_company" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_company"/>
+            <TextView android:textColorLink="#ffaaaaff" android:autoLink="web" android:layout_gravity="center_horizontal" android:id="@+id/about_url" android:paddingTop="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_about_url"/>
+            <TextView android:textColorLink="#ffaaaaff" android:autoLink="email" android:layout_gravity="center_horizontal" android:id="@+id/about_email" android:paddingTop="7dp" android:paddingBottom="11dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_about_email"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/dialog_buttonbackground" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/about_email">
+        <Button android:id="@+id/close_button" android:layout_width="145dp" android:layout_height="wrap_content" android:text="@string/dialogbutton_ok"/>
+    </LinearLayout>
+</LinearLayout>

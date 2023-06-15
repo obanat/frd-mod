@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#ff000000</color>
+    <color name="screentext_normal">#ff0078fe</color>
+    <color name="screentext_dialog">#ffffffff</color>
+    <color name="screentext_command">#ff32df20</color>
+    <color name="screentext_commandbackground">#55000000</color>
+    <color name="screentext_alert">#ffff5353</color>
+    <color name="screentext_alertdescription">#fffeb9b9</color>
+    <color name="statustext_disabled">#ff888888</color>
+    <color name="statustext_normal">#ff1fa2ff</color>
+    <color name="statustext_warning">#fffac800</color>
+    <color name="statustext_failure">#ffff0000</color>
+    <color name="statebar_background">#33000000</color>
+    <color name="buttonpress_normal">#aa1fa2ff</color>
+    <color name="buttonpress_taskrunning">#aa32df20</color>
+    <color name="buttonpress_focus">#88ff6d00</color>
+    <color name="dialog_buttonbackground_start">#ffa5a6a5</color>
+    <color name="dialog_buttonbackground_end">#ff7b7d7b</color>
+</resources>
