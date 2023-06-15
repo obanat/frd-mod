@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="portraitvideozoom_array">
+        <item>Full Frame</item>
+        <item>Crop (Default)</item>
+        <item>Squeeze</item>
+    </array>
+    <string-array name="portraitvideozoomvals_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="landscapevideozoom_array">
+        <item>Full Frame</item>
+        <item>Crop (Default)</item>
+        <item>Squeeze</item>
+    </array>
+    <string-array name="landscapevideozoomvals_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="optimize_array">
+        <item>WIFI and Fast Device</item>
+        <item>3G and/or Normal Device (Default)</item>
+    </array>
+    <string-array name="optimizevals_array">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="optimizealternate_array">
+        <item>WIFI and Fast Device</item>
+        <item>3G and/or Normal Device (Default)</item>
+    </array>
+    <string-array name="optimizealternatevals_array">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="cameravideotype_array">
+        <item>Individual JPEGs</item>
+        <item>Motion JPEG (Default)</item>
+    </array>
+    <string-array name="cameravideotypevals_array">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="cameraresolution_array">
+        <item>640 x 480</item>
+        <item>352 x 288 (Default)</item>
+        <item>320 x 240</item>
+        <item>176 x 144</item>
+    </array>
+    <string-array name="cameraresolutionvals_array">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <array name="cameraquality_array">
+        <item>High</item>
+        <item>Medium (Default)</item>
+        <item>Low</item>
+    </array>
+    <string-array name="cameraqualityvals_array">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="camerabrightness_array">
+        <item>7 (Bright - Default)</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (Dim)</item>
+    </string-array>
+    <string-array name="camerabrightnessvals_array">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="movementspeed_array">
+        <item>10 (Fastest)</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7 (Default)</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (Slowest)</item>
+    </string-array>
+    <string-array name="movementspeedvals_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="turningspeed_array">
+        <item>10 (Fastest)</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5 (Default)</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1 (Slowest)</item>
+    </string-array>
+    <string-array name="turningspeedvals_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
