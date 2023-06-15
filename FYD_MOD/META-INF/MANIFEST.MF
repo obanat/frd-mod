@@ -1,0 +1,408 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable/button_left90.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/drawable/status_battery_charging.png
+SHA1-Digest: 6Ebi+0D0+qVpus8r9vJVjnYxJOM=
+
+Name: res/drawable-hdpi-v4/menu_sethome.png
+SHA1-Digest: CzTZuKot73cdJWGnBK3hsoqdE4M=
+
+Name: res/drawable-hdpi-v4/status_signal2.png
+SHA1-Digest: 1GDH3vTk/fqeQ4q36gR5SYcH23g=
+
+Name: res/drawable/icon_dialog_panic.png
+SHA1-Digest: fSmTKFPOQZhaaQlI7KuAYlri61k=
+
+Name: res/drawable-hdpi-v4/status_signal_disabled.png
+SHA1-Digest: sTsoZSLUY7Uayap5FDocHe7BFC4=
+
+Name: res/drawable-hdpi-v4/button_cameramiddle_active.png
+SHA1-Digest: E2d5rWskWbAZrIF7sAQYdFnrTGI=
+
+Name: res/drawable-hdpi-v4/button_cameraup_active.png
+SHA1-Digest: LYax2Xf98hKWQbPYBIfP1CBOxcE=
+
+Name: res/drawable-hdpi-v4/button_right180.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable/button_cameramiddle_inactive.png
+SHA1-Digest: E+ItD0OhymaPQmnXcLaDvTaMR0E=
+
+Name: res/drawable-mdpi-v9/menu_settings.png
+SHA1-Digest: iDh98joyUoor44WMXJS15posngI=
+
+Name: res/layout/alert.xml
+SHA1-Digest: kxkq8Dy1zXvcITfbNpyBRRIbwxQ=
+
+Name: res/drawable-hdpi-v9/menu_help.png
+SHA1-Digest: 7d5L+xDiqaA5b7CaMj6vEJAF21I=
+
+Name: res/drawable/button_forward.png
+SHA1-Digest: Ly7bwycsG37UoCi4MSQkFhgm+c4=
+
+Name: res/drawable-hdpi-v4/button_right.png
+SHA1-Digest: dBcQ8ix7GbSFVJkk3oGjhFZyaZc=
+
+Name: res/drawable/status_battery1.png
+SHA1-Digest: OBDaHRFhR/4CUvbajJN2PGTckjw=
+
+Name: res/drawable-hdpi-v9/menu_settings.png
+SHA1-Digest: 2xDsjp3vLJF8qNzXcdM7wM02zJc=
+
+Name: res/drawable-hdpi-v4/button_forward.png
+SHA1-Digest: yffPnOLL+3Hp0Q86X+xEVXdg4JQ=
+
+Name: res/drawable/status_signal2.png
+SHA1-Digest: JAvxLct0zoL1fuDvyyjDBqFbOCw=
+
+Name: res/drawable-hdpi-v4/button_runpath.png
+SHA1-Digest: 23J8yHmh8gLmmkyxsU9wqrTA49w=
+
+Name: res/drawable-hdpi-v4/status_battery4.png
+SHA1-Digest: OxoD7LL0uGcdcow+cPXYd4J/7fc=
+
+Name: res/drawable/dialog_buttonbackground.xml
+SHA1-Digest: ofiVqxsgKcA6QMlm7KdcTHVXIQg=
+
+Name: res/drawable/status_battery_charged.png
+SHA1-Digest: yWlWd8mwUmVHU7IfRORcsA9LSM0=
+
+Name: res/drawable/button_headlight_on.png
+SHA1-Digest: /vmIV1IEuguiLb+IhjVaKio5bSE=
+
+Name: res/drawable/button_cameraup_inactive.png
+SHA1-Digest: jzNJBTY4UaPu+oOUjHNRBY02WSQ=
+
+Name: res/drawable/status_battery3.png
+SHA1-Digest: qJ0TgbP37E73KFKjK1AOeXtys24=
+
+Name: res/drawable/image_rovio.png
+SHA1-Digest: fQzO9gkJEdRI/HrEeL/QKvYKSOE=
+
+Name: resources.arsc
+SHA1-Digest: 0EBtAFwlbPkPDusZtN6yOhQUAkg=
+
+Name: res/drawable-hdpi-v4/status_signal0.png
+SHA1-Digest: guWaUvc6BshK4VZVDmOgYjuWa5I=
+
+Name: res/menu/menu.xml
+SHA1-Digest: /7OFfjrgFih+ltyVareUe/XBM0U=
+
+Name: res/drawable/status_signal4.png
+SHA1-Digest: qBlpj5PNKObKO2jdVcUZb0JCRQk=
+
+Name: res/drawable-hdpi-v9/menu_about.png
+SHA1-Digest: wAEeJhXXbxVR3lEQk9vb4z+fGNk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: WZkGNbKMwjrQ7CX9R33O5QT0B6w=
+
+Name: res/drawable-hdpi-v4/status_battery0.png
+SHA1-Digest: MSCa19Xmbug38wMJLVhuJZvelrs=
+
+Name: res/drawable/status_battery4.png
+SHA1-Digest: UuYXs75TSt9mkfpaDfEzP6zGeYM=
+
+Name: res/drawable-hdpi-v4/button_right45.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable-hdpi-v4/menu_about.png
+SHA1-Digest: ntFG/inbhd0SLvSdRK6el/hUTAY=
+
+Name: res/drawable/button_rotateleft.png
+SHA1-Digest: Ahp6CujItrFkF2gCRnuyv2wvm9I=
+
+Name: res/drawable/status_radar_on.png
+SHA1-Digest: MVCYECPi6HYxXX2RsDiWikyBvzA=
+
+Name: res/drawable-mdpi-v9/menu_about.png
+SHA1-Digest: keAICXkN4pfGd7/TQHrW8TXJbHE=
+
+Name: res/drawable-hdpi-v4/button_right135.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable-hdpi-v4/status_battery_disabled.png
+SHA1-Digest: xT9/brUCS9iYPKyP/AQMPJCueHk=
+
+Name: res/drawable/button_right90.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/drawable-hdpi-v4/icon_dialog_alert.png
+SHA1-Digest: qs+LXdWoKouI3shUPiU2iAc47AI=
+
+Name: res/drawable/button_cameradown_active.png
+SHA1-Digest: Girg1s2j5t2KQEB6z2u3U2Wnfm0=
+
+Name: res/drawable-hdpi-v4/button_homedock.png
+SHA1-Digest: LmBgocQIs0fuob1AGz9lfTIeP4o=
+
+Name: res/drawable/status_signal1.png
+SHA1-Digest: rW66PI1EEB7vB9gjxV7/rv9TBys=
+
+Name: res/drawable/menu_sethome.png
+SHA1-Digest: 80JhI69x8PYB9eNNdbdIdj0MXM0=
+
+Name: res/drawable-hdpi-v4/status_radar_obstruction.png
+SHA1-Digest: M6izT1bxjJF509i+2D9fG0yKmGI=
+
+Name: res/xml/settings.xml
+SHA1-Digest: PULs9BxlaIcmziyiexDHOJOa4M8=
+
+Name: res/drawable/button_cameraup_active.png
+SHA1-Digest: zmE+7Ld7g8IrsWp0GGQ21enWdUs=
+
+Name: res/drawable-hdpi-v4/button_left.png
+SHA1-Digest: T8Wby42e163fY12IV5ewHWe5PDo=
+
+Name: res/drawable-hdpi-v4/status_signal5.png
+SHA1-Digest: gfqRUtWqB0e2whrEMg3Th1p6qJA=
+
+Name: res/drawable/button_cameramiddle_active.png
+SHA1-Digest: eaPHiEmvi58zsXC/tgKP/NEdwVk=
+
+Name: res/drawable/icon_dialog_alert.png
+SHA1-Digest: npBAQ+9Hf/zHXqXKe5GWXLKGtSY=
+
+Name: res/drawable-hdpi-v4/button_rotateleft.png
+SHA1-Digest: 5bFRX/oLlJTaWp3/F7iiZBbXUrU=
+
+Name: res/drawable/button_right45.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/drawable/button_right.png
+SHA1-Digest: d+l0VICoAejPnM0Q1Q9uTVSxg8Q=
+
+Name: res/drawable-hdpi-v4/menu_help.png
+SHA1-Digest: 1IqoOLyN1iACM6BrLfEk2T8we+E=
+
+Name: res/drawable-hdpi-v4/status_battery2.png
+SHA1-Digest: 8vso9x4qhPFRA7hPqN3aH72mDwo=
+
+Name: res/drawable-hdpi-v4/button_left90.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable-mdpi-v9/menu_sethome.png
+SHA1-Digest: /U8RbuXoFL5qjuIU0OVMGwX99Y4=
+
+Name: res/drawable-hdpi-v4/status_battery5.png
+SHA1-Digest: HHuGCeyVsq3fbsLQZFyUPOqz9Uk=
+
+Name: res/drawable-hdpi-v4/button_left45.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable-hdpi-v4/button_cameradown_active.png
+SHA1-Digest: 8Fj7Z+zpuZVQtMGhok8KT2pc6MI=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: WMNrNr4wV7O5ItzqKuKFZ6lEW5o=
+
+Name: res/drawable/solid_black.xml
+SHA1-Digest: kEqqp09scJY6rQBnBdkjVBUKwt4=
+
+Name: res/drawable-hdpi-v4/button_cameradown_inactive.png
+SHA1-Digest: uP/9ua3w6j7oth6IXtVVXF4ObKo=
+
+Name: res/drawable/button_cameradown_inactive.png
+SHA1-Digest: U/4tsTkK0/nQcmL3sQ1daB/7BUA=
+
+Name: res/drawable-hdpi-v4/status_signal3.png
+SHA1-Digest: HVA/S8VJH51NAQc1iqIfQQi+VjU=
+
+Name: res/drawable-mdpi-v9/menu_help.png
+SHA1-Digest: fvVE6iMaVSzQtpVstL7VxcFQpH4=
+
+Name: res/layout/help.xml
+SHA1-Digest: ihF1+DrIf3qRNfRRaAlemI+UhNA=
+
+Name: res/drawable/gradient_left.xml
+SHA1-Digest: SZdTYrX8q3AxKDGOjzpO8/mPoKU=
+
+Name: res/drawable/status_signal3.png
+SHA1-Digest: anlfqqQc0X/XXuX13McgmvoQrN0=
+
+Name: res/drawable/status_battery_disabled.png
+SHA1-Digest: 4zNKhUbAWKFpe3JAHG5cNnmbbcA=
+
+Name: assets/help-en_us.html
+SHA1-Digest: 4n98VnAbOGampHpbmUcmYRtFP7w=
+
+Name: res/drawable/button_snapshot.png
+SHA1-Digest: I2EpoyiXP0YM9pKglkCJf759R2Q=
+
+Name: res/drawable-hdpi-v4/status_signal1.png
+SHA1-Digest: G0cOgGR/jgTCrchDsek1b7FFna8=
+
+Name: res/layout/about.xml
+SHA1-Digest: S6QHLd7xcTVvHrVEKMiLdMbN/iA=
+
+Name: res/drawable-hdpi-v4/image_rovio.png
+SHA1-Digest: 28c5NyQ5EnXDtt5mgqRspfwUx6Y=
+
+Name: res/drawable/button_reverse.png
+SHA1-Digest: RaVvFvY5Ef//q0oI8Q3uE+vAhHw=
+
+Name: res/drawable/status_battery0.png
+SHA1-Digest: B33emgWBZ0NO38Pd0msSJdhHfdk=
+
+Name: res/drawable-hdpi-v4/button_right90.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable-hdpi-v4/button_reverse.png
+SHA1-Digest: CiXxm9g1SH8CviBwhyShbZnA34c=
+
+Name: res/drawable/button_homedock.png
+SHA1-Digest: HVBZtCuteBEsitsNOX08pqQLyrE=
+
+Name: res/drawable-hdpi-v4/button_cameramiddle_inactive.png
+SHA1-Digest: l+jUKDxsCpRn5TwQXjYO59tzSjI=
+
+Name: res/drawable/icon.png
+SHA1-Digest: AQouoOb+zvvG7qMfzS/Um8ASLAg=
+
+Name: res/drawable/status_battery2.png
+SHA1-Digest: leTzX9xxuTlaiAvljkwmfQbkFMg=
+
+Name: res/drawable-hdpi-v4/button_rotateright.png
+SHA1-Digest: aK9ua94f4IRZ4QNqGm5HOi5alcM=
+
+Name: res/drawable/button_headlight_off.png
+SHA1-Digest: cMpDclUJM6JDmNSMOPwzDE9eyZA=
+
+Name: res/drawable-hdpi-v4/status_battery_charged.png
+SHA1-Digest: P6QIXXEYYyYYKlAfI2JxkPiZkRM=
+
+Name: res/drawable/status_signal5.png
+SHA1-Digest: NzEDdX2GN+3BEoGI+195DFs/DBM=
+
+Name: res/drawable/gradient_top.xml
+SHA1-Digest: y237KqGsTB4Pk2liquUatlSZJcM=
+
+Name: res/drawable/menu_about.png
+SHA1-Digest: Z5WDh4+UYUEy2912Va4nHtMSg/M=
+
+Name: assets/EULA
+SHA1-Digest: PrtFqgP74298rs9KPy8Dm+Lyf48=
+
+Name: res/drawable/status_signal_disabled.png
+SHA1-Digest: O8x1ASiUoJPbFF5O7dHFyjAEB4w=
+
+Name: res/drawable/gradient_bottom.xml
+SHA1-Digest: VbU3/N32JNHdirPuwwcaurVaNpA=
+
+Name: res/layout-v8/main.xml
+SHA1-Digest: TBvCEM6bJmuleUamUerM50Mhvyw=
+
+Name: res/drawable-hdpi-v4/menu_settings.png
+SHA1-Digest: OODIWo7dxx1pGPG+4+cVqTdCPp0=
+
+Name: res/drawable-hdpi-v4/button_left135.png
+SHA1-Digest: aZwz/5vaWYIg8VaSJDRtq2HU6JQ=
+
+Name: res/drawable/background_dirpad_portrait.png
+SHA1-Digest: 4L7rNkO5wbXTuGnardz9LJKD+1E=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: V3iVfDxguTnQQR+shwnIJcmvwTg=
+
+Name: res/drawable/button_right180.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/drawable-hdpi-v4/button_headlight_on.png
+SHA1-Digest: /Ne/bXTF2aXz5v8aM0yJOvVf02c=
+
+Name: res/drawable-hdpi-v4/button_cameraup_inactive.png
+SHA1-Digest: PP911D5bbLy3ZCXLKPfLE4m9NO4=
+
+Name: res/layout-land/main.xml
+SHA1-Digest: 7r3+itgDOUO7AIWBhNkUZGVubLo=
+
+Name: res/drawable-hdpi-v4/button_snapshot.png
+SHA1-Digest: CiUih0k9gkAS21USUBawZnL8gDg=
+
+Name: res/drawable-hdpi-v4/status_battery1.png
+SHA1-Digest: z70zCmkBV1s5ELfVRfIQkNJjfsI=
+
+Name: res/drawable-hdpi-v4/button_panic.png
+SHA1-Digest: eRWM+gO71z+UhG5ASJ4J3Oogctw=
+
+Name: res/drawable/button_left.png
+SHA1-Digest: GC6HV0jcahmlp9s4uW4Ejf9UO6w=
+
+Name: res/drawable-hdpi-v4/icon_dialog_panic.png
+SHA1-Digest: c11M2eGZQfOrkrwXjuNsXjgabuo=
+
+Name: res/drawable/button_left135.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/layout-land-v8/main.xml
+SHA1-Digest: 6RmTV3UVjxCJXmnkcD3L4MaFU44=
+
+Name: res/drawable/status_battery5.png
+SHA1-Digest: 8bO4BD6at0w0BKMZYzjDSflieVo=
+
+Name: res/drawable/button_rotateright.png
+SHA1-Digest: k7cN/NenFthO53jPQcrPugtB9SQ=
+
+Name: res/drawable/gradient_right.xml
+SHA1-Digest: 2SoZYR5jKwXzWM9v8kQ1DzoOpPA=
+
+Name: res/drawable-hdpi-v4/button_headlight_off.png
+SHA1-Digest: Nlh/84vKkEjnmoBn4VVECGvgmE4=
+
+Name: res/drawable-hdpi-v9/menu_sethome.png
+SHA1-Digest: HKVJdzjO6+1TvawVhH/ls/ORtqM=
+
+Name: res/drawable/button_panic.png
+SHA1-Digest: RqIfxsM+Y4cBBp3NjFdNiwR/Z6A=
+
+Name: res/drawable-hdpi-v4/status_battery_charging.png
+SHA1-Digest: 150x5H7ocnhUx1zlwBO+bYzDdDI=
+
+Name: res/drawable/button_runpath.png
+SHA1-Digest: U7nMTI+DFU9q7PZERzJxxCX+wpA=
+
+Name: res/drawable/menu_help.png
+SHA1-Digest: EI2XcrlFAjyu44orQFBq3h6P1rs=
+
+Name: res/layout/main.xml
+SHA1-Digest: azFhRpiXMcWvEFr9KFtrzokgOfw=
+
+Name: res/drawable/button_right135.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/drawable/logo_company.png
+SHA1-Digest: F4tLali4FirkOMTJJXTPZnL2o2U=
+
+Name: res/drawable/status_radar_obstruction.png
+SHA1-Digest: Xg44iO8P3jp9MEp8oqnlxaHBogU=
+
+Name: res/drawable/button_left45.png
+SHA1-Digest: yx8BYzDWL3ibJsiAFTdESNUL9QI=
+
+Name: res/drawable-hdpi-v4/status_battery3.png
+SHA1-Digest: vjDzk4YcaaIFi7wK2jaukd9SY78=
+
+Name: res/drawable/menu_settings.png
+SHA1-Digest: ByJHf5MkIraQz8oWERQIRp/I18M=
+
+Name: res/drawable/status_signal0.png
+SHA1-Digest: ekH+bNpcYn597vtVAX0tnURkLJk=
+
+Name: res/drawable-hdpi-v4/status_radar_on.png
+SHA1-Digest: jZmh4zIbcd0cxNc4eo4rCIOjU4k=
+
+Name: res/layout/new_listview.xml
+SHA1-Digest: hWY4TMPPGO+9fmR6SH7DprC8u2I=
+
+Name: res/drawable-hdpi-v4/logo_company.png
+SHA1-Digest: xW35/sgzw8BMd9qJcwOecl6UgOk=
+
+Name: classes.dex
+SHA1-Digest: 76iXpfDW9WFApNCEgq9gtkHtP5U=
+
+Name: res/drawable-hdpi-v4/status_signal4.png
+SHA1-Digest: YbL3/6XydB08MEBVnlgKekqClMM=
+

@@ -1,0 +1,242 @@
+<HTML>
+<BODY BGCOLOR="#4A4A4A" TEXT="#FFFFFF" LINK="#FAC800" VLINK="#FAC800" ALINK="#FAC800">
+
+<H3>Help Topics</H3>
+
+<UL>
+	<LI><B><A HREF="#connecting">Getting Connected</A></B></LI>
+	<BR>
+	<LI><B><A HREF="#interface">AndRovio Interface</A></B></LI>
+	<BR>
+	<LI><B><A HREF="#settings">AndRovio Settings</A></B></LI>
+	<BR>
+	<LI><B><A HREF="#questions">Questions?</A></B></LI>
+</UL>
+
+<!-- =================================================================== -->
+
+<A NAME="connecting">      
+<HR>
+<H3>Getting Connected</H3>
+	       
+<P>Welcome to AndRovio! If you're new to the Rovio, please be aware that AndRovio was not designed to help setup your Rovio out of the box.  Your Rovio must already be configured to run on your network and be usable from your desktop or laptop computer in order to use AndRovio.  The instruction manual included with your Rovio provides all of the information needed to make this happen.</P>
+<P>If you don't have a copy of the manual, you can obtain a PDF version from the <B><A HREF="http://www.wowwee.com/en/support/rovio">Rovio Support</A></B> website.  That site also provides links to the latest Rovio Installer utility and the latest Rovio Firmware.  It is highly recommended that you use those files and utilities to update and configure your Rovio (per the instruction manual) instead of using the files and utilities on the CD included with your Rovio, as those files are most likely out of date.</P>
+<P><I><FONT COLOR="#CCCCCC">* For the sake of troubleshooting, leave the username and password setting disabled on your Rovio for now.</FONT></I></P>
+<P>Once you've configured your Rovio and successfully used it from your desktop or laptop, the settings in AndRovio will begin to make more sense.  The URL setting for example, is the same URL you typed into your web browser to access your Rovio (assuming certain network conditions exist, which we'll cover now).</P>
+<P>Without diving into a full-blown lesson on network topology, I will attempt to clarify one of the most frustrating aspects of AndRovio for new users - connecting to your Rovio using your mobile data connection (3G/EDGE/etc.).  To understand that though, we have to cover connecting with WIFI first.</P>
+<P>Your Rovio has a built-in web server.  It responds on port 80, like any other web server.  When you operate your Rovio from a computer that is located on the same network as your Rovio (your in-house WIFI for example), your browser is communicating with your Rovio on port 80.</P>
+<P>By using WIFI on your Android device, you'll have the same direct path of communication, since all network activity is taking place on your local network, avoiding the outside world altogether.  For example, let's say your Rovio's IP address (on your local network) is 192.168.1.100 - This means you would type <B>http://192.168.1.100</B> into your computer's web browser to reach your Rovio.  In AndRovio, you would set the URL to <B>192.168.1.100</B> and the Port to <B>80</B>.  With those two key settings in place, AndRovio should now be able to talk to your Rovio over WIFI.</P>
+<P><I><FONT COLOR="#CCCCCC">* 192.168.1.100 is just an example.  Your Rovio's IP address can vary - the Rovio manual explains this in more detail during setup.  Hostnames will also work if you have them configured on your network.</FONT></I></P>
+<P>This works great from home, but what about when you're away?  When you use your device's mobile data connection (3G/EDGE/etc.) you are no longer connected to your home network.  You're connected to your mobile provider's network, which prevents your Android device from seeing your Rovio on your own network since it lives "across the internet" (practically speaking).  For this reason, your old URL and Port settings won't work, because your Android device has no idea where your home network (let alone your Rovio) is.  So how do we work around this?  By showing your Android device the way home in three easy steps:</P>
+<H4><FONT COLOR="#AAFFAA">Step 1:  Your External IP Address</FONT></H4>
+<P>First you have to figure out where your local network can be found from the outside world's perspective.  Your "external IP" is the address given to you by your home internet provider.  It is a completely different IP address than the ones you use on your home network.  If you don't know what your external IP address is, an easy way to find it is by visiting <B>www.whatismyip.com</B> from a desktop or laptop computer on your home network.  The site will tell you what your external IP is.  Enter that IP address into AndRovio's URL setting, and proceed to the next step:</P>
+<H4><FONT COLOR="#AAFFAA">Step 2:  Forwarding outside network traffic to the inside</FONT></H4>
+<P>Even though AndRovio now knows how to find your router, it still can't talk to anything beyond it because of the firewall (which is the whole point - to keep unknown outside connections from intruding upon your internal network).  You must tell your router that it's OK for external connections on a specific port to talk to a specific device (your Rovio) on your internal network.  This can be done from your router's "Port Forwarding" settings.</P>
+<P><I><FONT COLOR="#CCCCCC">* Every router has a different method of configuration, so it's impossible to cover them all here.  However, there are enough similarities between most models to get these settings entered easily with the assistance of your router's documentation.</FONT></I></P>
+<P>You'll need an outside port number to use.  Let's use <B>8168</B> (I'll explain why I chose that port number in a bit, but for now just play along).  Configure your router to pass all external traffic on port <B>8168</B> to the internal IP address <B>192.168.1.100</B> on port <B>80</B> (use your Rovio's IP address that you previously used during the WIFI test).  Be sure to save the settings and to do whatever your router requires to make those settings active (if saving them isn't enough).</P>
+<P>Once the settings are active, any connection from the outside world directed at your router on port <B>8168</B> will be passed directly to your Rovio on port <B>80</B>.  Now, make sure the Port setting in AndRovio is set to <B>8168</B> (You already entered the external IP address as the URL during the previous step).  Assuming your router's port-forwarding is configured correctly, AndRovio should now be able to talk to your Rovio!</P>
+<P><STRONG>Bonus:</STRONG>  Some routers support UPnP (Universal Plug-n-Play) which allows a device on your local network to automatically open and forward ports for itself.  Your Rovio has UPnP support, so if it's turned on (both on your Rovio and your router), your Rovio will handle all of step 2 for you!</P>
+<P><I><FONT COLOR="#CCCCCC">* By default your Rovio uses port <B>8168</B> in the UPnP settings, which is why I chose that port above (for consistency).</FONT></I></P>
+<P>Now that everything is working, I recommend activating the username & password function on your Rovio, to help keep bad guys out.  Once you have enabled it on your Rovio, be sure to enter the same username & password in AndRovio's network settings.</P>
+<H4><FONT COLOR="#AAFFAA">Step 3:  Dynamic DNS</FONT></H4>
+<P>It would be great if you could stop here, but the reality is that your ISP can change your external IP address on a frequent basis (unless you pay extra for a fixed IP, at which point you can skip this section).  You could frequently check your external IP address with <B>whatismyip.com</B> and update AndRovio's URL setting when the address changes, but what happens when it changes while you're away from home?  You have no way of finding the new address, and no way of using AndRovio.  This is where Dynamic DNS comes in.</P>
+<P>DNS (Domain Name System) is what makes it possible to type in <B>http://google.com</B> instead of <B>http://74.125.47.104</B> to reach Google's homepage.  Basically, it converts names to numbers (the internet would be a much less exciting place without it).  Dynamic DNS is a service which assigns a friendly URL to your external IP address, and makes sure that URL always points to your external IP, even if the IP changes.  So as long as you know the URL, you never have to bother with your external IP address.</P>
+<P>There are several Dynamic DNS providers available.  Typically you set up an account with the provider, and then run a small piece of software on a computer that sits on your local network.  The software constantly monitors your external IP address, and uploads any changes to your account on the Dynamic DNS server.  Even better, some routers have this functionality built-in, so you don't have to install any software or leave a computer running 24 hours a day.  Make sure to check your router for this option before installing a separate program.</P>
+<P>As an example, let's say that your name is John Doe and you setup an account with <B><A HREF="http://www.dyndns.com">DynDNS.com</A></B>.  You'll be able to pick from a list of custom URLs, usually including some variation on your account username.  Once configured, you'll enter <B>johndoe.dnsalias.net</B> (or whatever URL you choose) in AndRovio's URL setting to reach your home network from anywhere.
+
+<P><A HREF="#">Back to Help Topics</A></P>
+
+<!-- =================================================================== -->
+
+<A NAME="interface">      
+<HR>
+<H3>AndRovio Interface</H3>
+	       
+<P>AndRovio's interface was designed to be similar to your Rovio's normal web interface, but with small-screen optimizations.  You can simply press the buttons on your touchscreen, or use the trackball/5-way to select buttons and "click" them.  If you've used your Rovio web interface, you should have no problem using AndRovio's interface.  Nonetheless, here is a quick overview of AndRovio's buttons & menu options:</P>
+<H4><FONT COLOR="#AAFFAA">Buttons</FONT></H4>
+<TABLE BORDER="0" CELLPADDING="5" CELLSPACING="5">
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_rotateleft.png"></TD>
+<TD>Rotate Left (can be held down for continuous motion)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_rotateright.png"></TD>
+<TD>Rotate Right (can be held down for continuous motion)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_forward.png"></TD>
+<TD>Move Forward (can be held down for continuous motion)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_reverse.png"></TD>
+<TD>Move Backward (can be held down for continuous motion)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_left.png"></TD>
+<TD>Move Left (can be held down for continuous motion)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_right.png"></TD>
+<TD>Move Right (can be held down for continuous motion)</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD><I><FONT COLOR="#CCCCCC">* The speed of your network connection as well as your Android device will dictate how smooth continuous motion will be.  Typically your Rovio will move in small steps due to the time it takes for the command to be repeatedly transmitted & received while holding the button down.</FONT></I></TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_left45.png"></TD>
+<TD>Rotate to a specific angle in 45 degree increments, depending on the position of the button on the navigation pad</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_cameraup_inactive.png"></TD>
+<TD>Position your Rovio's camera to the high position</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_cameramiddle_inactive.png"></TD>
+<TD>Position your Rovio's camera to the middle position</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_cameradown_inactive.png"></TD>
+<TD>Position your Rovio's camera to the low position</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_headlight_off.png"></TD>
+<TD>Switch your Rovio's headlight on and off</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_snapshot.png"></TD>
+<TD>Take a snapshot of the current view (emailed from Rovio or saved to SD card depending on setting)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_runpath.png"></TD>
+<TD>Bring up a list of recorded paths to run</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_panic.png"></TD>
+<TD>Send a "Stop Everything" command to your Rovio (Good for stopping a running path or any other motion)</TD>
+</TR>
+<TR>
+<TD ALIGN="center"><IMG SRC="res/drawable/button_homedock.png"></TD>
+<TD>Tell your Rovio to go home and dock</TD>
+</TR>
+</TABLE>
+<P>As you can see, the buttons operate just like the controls on your Rovio's regular web browser interface, with a few exceptions:</P>
+<P>The Snapshot (camera icon) button on the right typically serves one function in your Rovio's web interface.  It emails a snapshot of the current view to the recipient setup in your Rovio's email settings.  On AndRovio it also does this by default, but can be changed in the settings to instead save the current snapshot locally on the SD card.  In this mode snapshots will be stored in an "AndRovio" directory on the card, and can be viewed with Android's built-in gallery application.</P>
+<P><I><FONT COLOR="#CCCCCC">* Please note that the regular email function won't do anything until you set it up on your Rovio's web interface.  It cannot be setup with AndRovio at this time.</FONT></I></P>
+<P>The Run Path (arrow icon) button on the right doesn't actually exist in your Rovio's web interface.  It simply brings up a list of recorded paths available to run from AndRovio.</P>
+<P><I><FONT COLOR="#CCCCCC">* Please note that paths cannot currently be recorded with AndRovio.  They must be recorded using your Rovio's web interface.</FONT></I></P>
+<H4><FONT COLOR="#AAFFAA">Menu Options</FONT></H4>
+<TABLE BORDER="0" CELLPADDING="5" CELLSPACING="5">
+<TR>
+<TD ALIGN="center" VALIGN="top"><B><I>About</I></B></TD>
+<TD>Display a dialog with AndRovio's version number and other information</TD>
+</TR>
+<TR>
+<TD ALIGN="center" VALIGN="top"><B><I>Help</I></B></TD>
+<TD>Display this help text</TD>
+</TR>
+<TR>
+<TD ALIGN="center" VALIGN="top"><B><I>Set Home</I></B></TD>
+<TD>Set your Rovio's current location as the new home (requires confirmation)</TD>
+</TR>
+<TR>
+<TD ALIGN="center" VALIGN="top"><B><I>Settings</I></B></TD>
+<TD>Display the preferences screen to customize AndRovio</TD>
+</TR>
+</TABLE>
+<H4><FONT COLOR="#AAFFAA">Portrait Mode</FONT></H4>
+<P>At the top of the screen (immediately under the Android notification bar) you'll see the Rovio status bar.  This contains all of the same information that is shown in your Rovio's regular web interface (navigation status, IR obstacle detection, navigation signal level, WIFI signal level, and battery charge level & status).</P>
+<P>In the middle of the display (below the status bar and above the control buttons) is where the video is displayed.  The available space for the video varies on the size and shape of your device's screen.  In the settings you can adjust how the video is displayed on your device (more detail in the <B><A HREF="#settings">settings</A></B> section below).</P>
+<H4><FONT COLOR="#AAFFAA">Landscape Mode</FONT></H4>
+<P>In landscape mode all of the same controls are available, except they are laid out in a more two-handed thumb-friendly fashion while overlapping full-screen video for a cool effect.  Like portrait mode, the video display can also be adjusted in the settings.</P>
+
+
+<P><A HREF="#">Back to Help Topics</A></P>
+
+<!-- =================================================================== -->
+
+<A NAME="settings">      
+<HR>
+<H3>AndRovio Settings</H3>
+	       
+<P>AndRovio's settings screen is where you control every aspect of the application, from connecting to your Rovio to customizing the video display, snapshot function, etc.  Here is a rundown of each available option:</P>
+<H4><FONT COLOR="#AAFFAA">Alternate URL/Port</FONT></H4>
+<P>AndRovio's Network Settings (below) let you enter two different URLs and Ports to access your Rovio.  (For example, one URL/Port for using WIFI at home, and another URL/Port for using mobile data elsewhere).  This checkbox lets you quickly switch between them.</P>
+<H4><FONT COLOR="#AAFFAA">IR Radar</FONT></H4>
+<P>Use this checkbox to enable your Rovio's IR obstruction detection.  When your Rovio detects an obstacle, you'll see the radar icon light up in the status bar. <IMG SRC="res/drawable/status_radar_obstruction.png" ALIGN="center"></P>
+<H4><FONT COLOR="#AAFFAA">Brightness Booster</FONT></H4>
+<P>If you haven't noticed by now, your Rovio's camera is really dark, even with the brightness at the highest setting.  This option will boost the gamma of the video to allow you to see things you wouldn't normally be able to.  Please note that snapshots emailed from your Rovio will not show this effect.  However, snapshots saved to the SD card will.</P>
+<H4><FONT COLOR="#AAFFAA">Snapshot Booster</FONT></H4>
+<P>With this option enabled, AndRovio will temporarily turn up the image quality and resolution when taking a snapshot, and then restore it once the snapshot is finished.  It will take longer to take the snapshot, since your Rovio takes a moment to respond to resolution & quality changes.</P>
+<H4><FONT COLOR="#AAFFAA">Snapshots to Card</FONT></H4>
+<P>By default, pressing the snapshot button tells your Rovio to email a snapshot to the recipient configured in your Rovio's email settings.  By checking this box it will change the function of the button to save snapshots to the local SD card for viewing in the Android gallery application.  From there you can share pictures via email, FaceBook, Twitter, etc.</P>
+<H4><FONT COLOR="#AAFFAA">Verbose Commands</FONT></H4>
+<P>When issuing commands to your Rovio, the transmitted command appears in an overlay at the top of the video.  This checkbox allows you to toggle that overlay on or off.</P>
+<H4><FONT COLOR="#AAFFAA">Keep Screen On</FONT></H4>
+<P>Normally your Android device will shut off the screen when it hasn't been used for a certain period of time.  This checkbox allows you to keep the screen on, but only while actively connected to your Rovio.</P>
+<H4><FONT COLOR="#AAFFAA">Portrait Video Zoom</FONT></H4>
+<P>Each Android device has a different size and shape of screen, which changes the way a fixed aspect-ratio video fits in the frame.  These options allow you to select your favorite fit.  (Note that some settings may have no visible effect on some devices due to the shape of the screen.  Longer or shorter than normal displays tend to see more of a change.)</P>
+<UL>
+	<LI><B>Full Frame</B> - Show the entire video frame while maintaining the correct aspect ratio</LI>
+	<LI><B>Crop (Default)</B> - Fill the entire available video space while maintaining the correct aspect ratio, cutting off video that doesn't fit</LI>
+	<LI><B>Squeeze</B> - Fill the entire available video space with the full frame, ignoring the correct aspect ratio</LI>
+</UL>
+<H4><FONT COLOR="#AAFFAA">Landscape Video Zoom</FONT></H4>
+<P>See <I>Portrait Video Zoom</I> above</P>
+<H4><FONT COLOR="#AAFFAA">Network Settings</FONT></H4>
+<P>These are the settings that tell AndRovio how to connect to your Rovio:</P>
+<UL>
+	<LI><B>URL (required)</B> - The main URL used to access your Rovio</LI>
+	<LI><B>Port (required)</B> - The main Port number used to access your Rovio</LI>
+	<LI><B>Optimization</B> - Change the way AndRovio communicates with your Rovio based on your current network speed and how fast your Android device is (more below)</LI>
+	<LI><B>Alternate URL</B> - An optional second URL used to access your Rovio (toggled with the "Alternate URL" checkbox at the top of the settings screen)</LI>
+	<LI><B>Alternate Port</B> - An optional second Port used to access your Rovio</LI>
+	<LI><B>Alternate Optimization</B> - Same as Optimization above, but on the alternate URL & Port</LI>
+	<LI><B>Username</B> - The username used to login to your Rovio if authentication is enabled</LI>
+	<LI><B>Password</B> - The password used to login to your Rovio if authentication is enabled</LI>
+</UL>
+<P><I><FONT COLOR="#CCCCCC">* Note that some features of AndRovio (such as resolution and quality changes) will not work if the given username doesn't have administrative access on your Rovio</FONT></I></P>
+<P><B>More on Optimization:</B> This option allows you to modify how AndRovio sends movement commands to your Rovio.  If you have a fast Android device, and you're using AndRovio over WIFI (preferably on the same local network as your Rovio), change the option to "WIFI and Fast Device" for a smoother experience.  Keep in mind this requires both a fast device and a fast connection.  One or the other alone won't work.  For example, even on WIFI, the HTC Dream/G1 can't send smooth drive commands to the Rovio because of device speed limitations, but the Google Nexus One has no problem doing it since it's a much faster device.  Neither device however, can send smooth drive commands over most mobile data connections, so you should set optimization to "3G and/or Normal Device (Default)" in that scenerio.  Every device and network condition varies, so it's best to experiment.</P>
+<H4><FONT COLOR="#AAFFAA">Video Settings</FONT></H4>
+<P>These settings adjust the camera on your Rovio:</P>
+<UL>
+	<LI><B>Resolution</B> - Adjusts the resolution of the video taken by your Rovio (smaller = faster video / larger = sharper video)</LI>
+	<LI><B>Quality</B> - Adjusts the JPEG compression level of the video taken by your Rovio (lower = faster video / higher = sharper video)</LI>
+	<LI><B>Brightness</B> - Adjusts the brightness of the video taken by your Rovio (since the camera is already so dark, the highest setting is recommended)</LI>
+</UL>
+<H4><FONT COLOR="#AAFFAA">Motion Settings</FONT></H4>
+<P>These settings adjust the speed of your Rovio while in motion:</P>
+<UL>
+	<LI><B>Movement Speed</B> - Adjusts the speed of your Rovio while using the <B>forward</B>, <B>backward</B>, <B>move left</B>, and <B>move right</B> buttons</LI>
+	<LI><B>Turning speed</B> - Adjusts the speed of your Rovio while using the <B>turn left</B> and <B>turn right</B> buttons</LI>
+</UL>
+<H4><FONT COLOR="#AAFFAA">Usage Statistics</FONT></H4>
+<P>AndRovio collects the following information while running:</P>
+<UL>
+	<LI>App version</LI>
+	<LI>Android version</LI>
+	<LI>Device type</LI>
+	<LI>Screen size</LI>
+	<LI>Screen density</LI>
+</UL>
+None of this information can be used to personally identify you, and is strictly used by Poignant Projects to improve the experience of the application.  If you would prefer not to participate in sending data to help improve AndRovio, you can opt out by un-checking this option.</P>
+<P><I><FONT COLOR="#CCCCCC">* I would ask that you consider leaving this option enabled as the data is *very* helpful in determining the direction of the app.</FONT></I></P>
+
+<P><A HREF="#">Back to Help Topics</A></P>
+
+<!-- =================================================================== -->
+
+<A NAME="questions">      
+<HR>
+<H3>Questions?</H3>
+	       
+<P>If after reading this help text you still have questions about AndRovio, don't hesitate to contact me at <B><A HREF="mailto:poignantprojects@gmail.com">poignantprojects@gmail.com</A></B>.  Please keep in mind that it is currently not possible to respond to comments in the Android Market, so direct contact is preferred for troubleshooting.</P>
+<P>If you're interested in reading about updates (including detailed release notes) for AndRovio, check out <B><A HREF="http://poignantprojects.blogspot.com">poignantprojects.blogspot.com</A></B>.  If you use an RSS reader be sure to subscribe to receive posts as they happen.</P>
+<P><I><FONT COLOR="#CCCCCC">* The email address and website links are also available in the "About" menu option</FONT></I></P>
+
+<P><A HREF="#">Back to Help Topics</A></P>
+
+<!-- =================================================================== -->
+
+</BODY>
+</HTML>
